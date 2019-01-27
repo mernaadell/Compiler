@@ -11,7 +11,7 @@ public class Keyword {
 		mernaya.put(Keyword.lexeme, Keyword.valu);
 	}
 
-	static void reserveItNow() {
+	static void reserveItNow(){
 		reserve(new Keyword(1, "PROGRAM"));
 		reserve(new Keyword(2, "VAR"));
 		reserve(new Keyword(3, "BEGIN"));
